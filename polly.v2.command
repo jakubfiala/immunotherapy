@@ -5,6 +5,7 @@ set -o nounset
 if [[ -z `which pip` ]];
 then
   echo "No Python installation found; Install Python and pip first."
+  exit 1
 fi
 
 if [[ -z `which aws` ]];
