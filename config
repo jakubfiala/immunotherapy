@@ -1,0 +1,4 @@
+
+[climato_polly]
+output = text
+region = eu-west-1
